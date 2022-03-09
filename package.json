@@ -8,8 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "install-client": "cd client && npm install"
   },
   "author": "Mustafa Enes Guneruz <mustafaguneruz19@gmail.com>",
   "license": "ISC",
